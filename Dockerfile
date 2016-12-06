@@ -9,9 +9,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN npm install -g \
         textlint \
-	textlint-rule-max-ten \
-        textlint-rule-spellcheck-tech-word \
-	textlint-rule-preset-jtf-style
+	textlint-rule-preset-ja-technical-writing
 
 RUN echo "ja_JP.UTF-8 UTF-8" > /etc/locale.gen \
     && locale-gen \

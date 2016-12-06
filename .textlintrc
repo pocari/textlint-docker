@@ -1,9 +1,12 @@
 {
-	"rules": {
-		"max-ten": {
-			"max": 3
-		},
-		"spellcheck-tech-word": true,
-		"preset-jtf-style": true
-	}
+  "rules": {
+    "preset-ja-technical-writing": {
+      "max-kanji-continuous-len": {
+        max: 5,
+        allow: [
+          "瞬間最大風速"
+        ]
+      }
+    }
+  }
 }
